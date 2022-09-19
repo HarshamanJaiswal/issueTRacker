@@ -1,0 +1,41 @@
+.mycard{
+
+    /* background-color: red; */
+    /*Shorthand properties*/
+    background-color:#0996af11;
+    border:2px solid gray;
+    width: 35%;
+    /* margin: 300px auto;  */
+      /* synatx:x-offset y-offset blur color*/
+      padding: 0px 20px 20px 20px ; 
+    box-shadow:-6px 4px 8px 8px rgba(47, 42, 50, 0.562),-6px 4px 8px 8px rgba(47, 42, 50, 0.562);
+    box-sizing: border-box;
+    border-radius: 5px;
+    }
+
+.harsh{
+        min-height: 100vh;
+        display :flex;
+        align-items: center;
+        justify-content: center;
+        /* margin:0; */
+        color:rgb(238, 12, 125);
+        background-color: rgb(14, 200, 233);
+        background-image:url(https://wallpaperaccess.com/full/1393228.jpg);
+        background-size:cover;
+        /* background-filter:blur(10px); */
+        /* background:linear-gradient(to right,blue,red) */
+    }
+    .mybtn{
+        /* width: 100%; */
+        /* padding: 10px; */
+        /* border-radius: 5px; */
+        background-color: rgb(238, 12, 125);
+                   color:black;
+        font-weight: bold;
+        font-size: 1.1em;
+
+    }
+    .mybtn:hover{
+        background-color: bisque;
+    }
